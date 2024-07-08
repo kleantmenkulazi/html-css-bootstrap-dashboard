@@ -17,3 +17,11 @@ main > aside {
 main > section {
     width: calc(100% - var(--aside-width));
    }
+   aside > ul > li{
+    list-style: none;
+    text-decoration: none;
+   }
+   .ridimensionamento-immagine{
+    height: 10%;
+    width: 10%;
+   }
