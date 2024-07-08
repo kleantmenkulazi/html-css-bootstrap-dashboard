@@ -21,7 +21,15 @@ main > section {
     list-style: none;
     text-decoration: none;
    }
+   .lista-da-sistemare > li{
+    list-style: none;
+    text-decoration: none;
+   }
    .ridimensionamento-immagine{
     height: 10%;
     width: 10%;
+   }
+   section > div > table > tbody > tr > td > span{
+    display: flex;
+    text-align: center;
    }
