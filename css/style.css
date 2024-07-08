@@ -1,0 +1,19 @@
+/* General */
+:root{
+    --header-height: 60px;
+    --aside-width: 150px;
+}
+/* Header */
+#main-header{
+    height: var(--header-height);
+}
+/* Main */
+main{
+    height: calc(100vh - var(--header-height));
+}
+main > aside {
+ width: var(--aside-width);
+}
+main > section {
+    width: calc(100% - var(--aside-width));
+   }
